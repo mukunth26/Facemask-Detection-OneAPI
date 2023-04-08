@@ -33,8 +33,8 @@ The project will be useful in various situations such as:
 
 
 
-oneDNN  which is a part of OneAPI is an open-source library developed by Intel that provides optimized implementations of deep learning primitives and algorithms such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
-This project uses oneDNN to optimize the performance and efficiency of the CNN model. The tensorflow framework which is integrated with OneDNN is used to achieve lower memory consumption and higher accuracy.
+oneDNN  which is a part of OneAPI is an open-source library developed by Intel that provides optimized implementations of deep learning primitives and algorithms such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs). It supports a wide range of deep learning frameworks and can be integrated with various programming languages.
+This project uses oneDNN to optimize the performance and efficiency of the CNN model. The tensorflow framework which is integrated with OneDNN is used to achieve lower memory consumption,higher accuracy,faster training times and better utilization of hardware resource.
 
 <img width="762" alt="Screenshot 2023-04-08 at 7 45 08 PM" src="https://user-images.githubusercontent.com/130204205/230725954-72d3d17e-9c11-4974-b94b-5935319c41c4.png">
 
@@ -43,6 +43,8 @@ Intel(R) Extension for Scikit-learn is also used which provides a seamless way t
 <img width="745" alt="Screenshot 2023-04-08 at 7 48 34 PM" src="https://user-images.githubusercontent.com/130204205/230726131-cf899d57-f52d-4077-8d78-fc781e26d53f.png">
 
 The test accuracy achieved after the optimizations made by the OneDNN on the CNN model is 93.44%
+
+Overall, integrating OneDNN with TensorFlow can provide significant performance benefits for deep learning algorithms, making it a powerful tool for developing high-performance deep learning applications.
 
 # RESULT AND LEARNINGS
 
