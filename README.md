@@ -46,15 +46,17 @@ The test accuracy achieved after the optimizations made by the OneDNN on the CNN
 
 # RESULT AND LEARNINGS
 
-A Interface with Streamlit was created which takes the URL of the image as input and displays the image and the prediction made by the CNN model.
+A Simple but effective Interface with Streamlit was created which allows the user to either paste the URL of the image or upload the image. Then the input image,probability distribution for the image and the final prediction made by the model will be displayed.
 
-:arrow_right: Entering the image URL in the interface
+:arrow_right: Giving URL of the image as input to the interface
 
-<img width="793" alt="Screenshot 2023-04-08 at 8 25 35 PM" src="https://user-images.githubusercontent.com/130204205/230728477-27edcdaa-1654-497d-a847-fafcd5bf17fe.png">
+<img width="1221" alt="Screenshot 2023-04-09 at 12 11 40 AM" src="https://user-images.githubusercontent.com/130204205/230738475-32276862-d925-4cbc-8085-44f06fde2855.png">
 
-:arrow_right: The input image and the prediction made by the model
 
-<img width="708" alt="Screenshot 2023-04-08 at 8 31 40 PM" src="https://user-images.githubusercontent.com/130204205/230728521-83d3ac22-2839-4107-af78-b8065bc2e723.png">
+:arrow_right: Display of the prediction made by the CNN model
+
+<img width="1414" alt="Screenshot 2023-04-09 at 12 27 02 AM" src="https://user-images.githubusercontent.com/130204205/230738494-8edab987-e1b6-4899-b57c-50cc8490cad8.png">
+
 
 The learnings from this project are:
 
